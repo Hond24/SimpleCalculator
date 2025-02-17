@@ -11,13 +11,29 @@
 
 ## 🎥 デモ（実行例）
 ![計算機の実行例]
-(https://github.com/Hond24/SimpleCalculator/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-02-10%2022.34.02.png)
+
+# 正常
+Enter first number: 10
+Operator (+, -, *, /): +
+Enter second number: 5
+Result: 10+5=15
+
+# エラー
+不正な入力
+Enter first number: f
+Invalid input. Please try again.
+
+ゼロ除算
+Enter first number: 1
+Operator (+, -, *, /): /
+Enter second number: 0
+Error: Division by zero is not allowed. Please enter again.
+
 ---
 
 ## 🔧 機能
 ✅ **四則演算（+,-,*,/）に対応**  
 ✅ **不正な入力を防止**（例外処理を使用）  
-✅ **整数結果は小数点を省略**（例: `5.0` → `5`）  
 ✅ **ゼロ除算を防止**（`10 / 0` の場合、再入力を促す）  
 
 ---
