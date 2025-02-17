@@ -13,21 +13,26 @@
 ![計算機の実行例]
 
 # 正常
-Enter first number: 10
-Operator (+, -, *, /): +
-Enter second number: 5
-Result: 10+5=15
+・Enter first number: 10
+・Operator (+, -, *, /): +
+・Enter second number: 5
+・Result: 10+5=15
 
 # エラー
 不正な入力
-Enter first number: f
-Invalid input. Please try again.
+・Enter first number: f
+・Invalid input. Please try again.
+
+剰余演算子
+・Enter first number: 4
+・Operator (+, -, *, /): %
+・Invalid input. Please try again.
 
 ゼロ除算
-Enter first number: 1
-Operator (+, -, *, /): /
-Enter second number: 0
-Error: Division by zero is not allowed. Please enter again.
+・Enter first number: 1
+・Operator (+, -, *, /): /
+・Enter second number: 0
+・Error: Division by zero is not allowed. Please enter again.
 
 ---
 
